@@ -11,6 +11,7 @@
 		0C83488F27C5DE5900483EAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83488E27C5DE5900483EAD /* ContentView.swift */; };
 		0C83489127C5DE7000483EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C83489027C5DE7000483EAD /* Assets.xcassets */; };
 		0C83489427C5DE7000483EAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C83489327C5DE7000483EAD /* Preview Assets.xcassets */; };
+		0C83489D27C5EAFB00483EAD /* RealQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83489C27C5EAFB00483EAD /* RealQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0C83488E27C5DE5900483EAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C83489027C5DE7000483EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C83489327C5DE7000483EAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C83489C27C5EAFB00483EAD /* RealQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		0C83488027C5DE5900483EAD = {
 			isa = PBXGroup;
 			children = (
+				0C83488C27C5DE5900483EAD /* QuotesApp.swift */,
 				0C83488B27C5DE5900483EAD /* Quotes */,
 				0C83488A27C5DE5900483EAD /* Products */,
 			);
@@ -51,8 +54,8 @@
 		0C83488B27C5DE5900483EAD /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
-				0C83488C27C5DE5900483EAD /* QuotesApp.swift */,
-				0C83488E27C5DE5900483EAD /* ContentView.swift */,
+				0C83489A27C5EA1100483EAD /* Model */,
+				0C83489B27C5EA1800483EAD /* Views */,
 				0C83489027C5DE7000483EAD /* Assets.xcassets */,
 				0C83489227C5DE7000483EAD /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				0C83489327C5DE7000483EAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C83489A27C5EA1100483EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C83489C27C5EAFB00483EAD /* RealQuote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C83489B27C5EA1800483EAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C83488E27C5DE5900483EAD /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C83488F27C5DE5900483EAD /* ContentView.swift in Sources */,
+				0C83489D27C5EAFB00483EAD /* RealQuote.swift in Sources */,
 				0C83488D27C5DE5900483EAD /* QuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
