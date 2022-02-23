@@ -25,7 +25,7 @@ struct ContentView: View {
             
             Text(currentQuote.quoteText)
                 .font(.title2)
-                .frame(width: 225, height: 130)
+                .frame(width: 200, height: 100)
                 .multilineTextAlignment(.leading)
                 .padding(30)
                 .overlay(
@@ -35,7 +35,7 @@ struct ContentView: View {
             
                 .padding()
             
-            Text(currentQuote.quoteAuthor)
+            Text("- " + currentQuote.quoteAuthor)
                 .font(.caption)
             
             
@@ -75,7 +75,7 @@ struct ContentView: View {
         .task {
             
             // Assemble the URL that points to the endpoint
-            let url = URL(string: "https://forismatic.com/en/")!
+            let url = URL(string: "https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=json&lang=en")!
             
             // Define the type of data we want from the endpoint
             // Configure the request to the web site
